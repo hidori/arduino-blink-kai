@@ -1,0 +1,45 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/debian
+{
+	"name": "arduino-cli devcontainer",
+
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "bash .devcontainer/post-create.sh",
+
+	// Configure tool-specific properties.
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"MS-CEINTL.vscode-language-pack-ja",
+				"vsciot-vscode.vscode-arduino",
+				"ahmed-hamdy.bash-beautify",
+				"ms-vscode.cpptools-extension-pack",
+				"wmaurer.change-case",
+				"ms-vscode.cmake-tools",
+				"GoogleCloudTools.cloudcode",
+				"mhutchie.git-graph",
+				"donjayamanne.githistory",
+				"github.vscode-github-actions",
+				"GitHub.copilot",
+				"GitHub.copilot-chat",
+				"bierner.markdown-preview-github-styles",
+				"codezombie.gitignore",
+				"ms-vscode.makefile-tools",
+				"davidanson.vscode-markdownlint",
+				"mushan.vscode-paste-image",
+				"esbenp.prettier-vscode",
+				"mechatroner.rainbow-csv",
+				"Gruntfuggly.todo-tree",
+				"redhat.vscode-yaml"
+			]
+		}
+	}
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}
